@@ -36,7 +36,7 @@ function Navbar() {
           <div className="hidden lg:block">
             <a
               className="inline-flex text-green-500 cursor-pointer items-center gap-1 rounded border border-white bg-white px-4 py-2 font-bold hover:text-green-400 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-300 focus-visible:ring-offset-2 active:opacity-100"
-              href=""
+              href="/appointment"
             >
               Schedule An Appointment
             </a>

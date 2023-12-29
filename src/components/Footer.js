@@ -25,7 +25,7 @@ function Footer() {
         </div>
       </div>
     <footer className='border-t-2 border-t-green-600'>
-      <div className="grid grid-cols-2 p-8 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 p-8 gap-4">
         <div className='p-2'>
           <div className='pb-2'>
           <p className='text-4xl py-2 border-b-2 border-b-gray-600 text-gray-600'>Address here</p>

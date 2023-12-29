@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Story from "./components/Story";
 import OtherPage from "./components/OtherPage";
+import Appointment from "./components/Appointment";
 
 
 
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/faq",
     element: <OtherPage/>,
+  },
+  {
+    path: "/appointment",
+    element: <Appointment/>
   },
 ]);
 
