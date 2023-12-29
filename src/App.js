@@ -10,6 +10,8 @@ import Footer from "./components/Footer";
 import Story from "./components/Story";
 import OtherPage from "./components/OtherPage";
 import Appointment from "./components/Appointment";
+import Blog from "./components/Blog";
+import Quries from "./components/Quries";
 
 
 
@@ -32,11 +34,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/blogs",
-    element: <OtherPage/>,
+    element: <Blog/>,
   },
   {
     path: "/faq",
-    element: <OtherPage/>,
+    element: <Quries/>,
   },
   {
     path: "/appointment",

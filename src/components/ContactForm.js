@@ -10,13 +10,13 @@ function ContactForm() {
               class="block uppercase tracking-wide text-gray-700 text-md font-bold mb-2"
               for="grid-last-name"
             >
-              Name
+              Name <span className="text-red-800">*</span>
             </label>
             <input
               class="appearance-none block w-full bg-white text-gray-700 border border-gray-500 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-last-name"
               type="text"
-              placeholder="Doe"
+              placeholder="Doe" required
             />
           </div>
         </div>
@@ -26,7 +26,7 @@ function ContactForm() {
               class="block uppercase tracking-wide text-gray-700 text-md font-bold mb-2"
               for="grid-first-name"
             >
-              Phone No.
+              Phone No. <span className="text-red-800">*</span>
             </label>
             <input
               class="appearance-none block w-full bg-white text-gray-700 border border-gray-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
@@ -41,13 +41,13 @@ function ContactForm() {
               class="block uppercase tracking-wide text-gray-700 text-md font-bold mb-2"
               for="grid-last-name"
             >
-              Email.
+              Email. <span className="text-red-800">*</span>
             </label>
             <input
               class="appearance-none block w-full bg-white text-gray-700 border border-gray-500 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-last-name"
               type="text"
-              placeholder="abc123@abc.com"
+              placeholder="abc123@abc.com" required
             />
           </div>
         </div>
@@ -57,12 +57,12 @@ function ContactForm() {
               class="block uppercase tracking-wide text-gray-700 text-md font-bold mb-2"
               for="grid-last-name"
             >
-              Message Here
+              Message Here <span className="text-red-800">*</span>
             </label>
             <textarea rows="4" cols="50"
               class="appearance-none block w-full bg-white text-gray-700 border border-gray-500 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
               id="grid-last-name"
-              placeholder="write your message here"
+              placeholder="write your message here" required
             ></textarea>
           </div>
         </div>
